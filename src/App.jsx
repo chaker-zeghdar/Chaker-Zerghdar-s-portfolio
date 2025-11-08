@@ -6,7 +6,8 @@ import FeatureCards from './Sections/FeatureCards'
 import Experience from "./Sections/Experience"
 import TechStack from "./Sections/TechStack"
 import Testimonials from "./Sections/Testimonials"
-
+import Contact from "./Sections/Contact"
+import Footer from "./Sections/Footer"
 function App() {
 
   return (
@@ -19,6 +20,8 @@ function App() {
       <Experience/>
       <TechStack/>
       <Testimonials/>
+      <Contact />
+      <Footer />
     </>
   )
 }

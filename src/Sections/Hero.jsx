@@ -61,6 +61,7 @@ const Hero = () => {
             <figure>
                 <div className='hero-3d-layout'>
                     <HeroExpirience/>
+                    
                 </div>
             </figure>
         </div>
