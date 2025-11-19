@@ -151,7 +151,7 @@ const expCards = [
     imgPath: "/images/originova_logo.png",
     logoPath: "/images/originova_logo.png",
     title: "Junior Software Developer",
-    date: "April 2025 - June 2025",
+    date: "Jan 2025 - May 2025",
     responsibilities: [
       "Developed and maintained responsive web applications using Vue.js and Nuxt.js, focusing on performance, UI/UX quality, and reusability of components.",
       "Built and deployed cross-platform mobile applications using Ionic Framework with Capacitor, targeting both Android and iOS platforms.",
@@ -175,11 +175,11 @@ const expCards = [
     imgPath: "/images/noble_logo.png",
     logoPath: "/images/noble_logo.png",
     title: "Freelance Software Developer",
-    date: "June 2023 - Present",
+    date: "June 2025 - Sep 2025",
     responsibilities: [
-      "Developed cross-platform mobile apps using React Native (Expo) and Ionic Framework with Capacitor for various client projects.",
-      "Created desktop applications using Python (PyQt5) and Java (JavaFX) for business automation and POS systems.",
-      "Maintained long-term client relationships by providing ongoing support, debugging, and updates to applications.",
+      "Developed and maintained responsive web applications using Vue.js and Nuxt.js, focusing on performance, UI/UX quality, and reusability of components.",
+      "Built and deployed cross-platform mobile applications using Ionic Framework with Capacitor, targeting both Android and iOS platforms.",
+      "Collaborated closely with UI/UX designers and backend developers to ensure seamless integration of APIs and consistent user experience.",
     ],
   },
 ];

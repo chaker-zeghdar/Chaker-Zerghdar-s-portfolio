@@ -11,7 +11,7 @@ const Hero = () => {
     gsap.fromTo(
       ".hero-text h1",
       { y: 50, opacity: 0 },
-      { y: 0, opacity: 1, stagger: 0.5, duration: 1, ease: "power2.inOut" }
+      { y: 0, opacity: 1, stagger: 0.1, duration: 0.5, ease: "power2.inOut" }
     );
   });
   return (
