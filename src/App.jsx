@@ -5,7 +5,6 @@ import ShowCaseSection from "./Sections/ShowCaseSection"
 import FeatureCards from './Sections/FeatureCards'
 import Experience from "./Sections/Experience"
 import TechStack from "./Sections/TechStack"
-import Testimonials from "./Sections/Testimonials"
 import Contact from "./Sections/Contact"
 import Footer from "./Sections/Footer"
 function App() {
@@ -19,7 +18,6 @@ function App() {
       <FeatureCards/>
       <Experience/>
       <TechStack/>
-      <Testimonials/>
       <Contact />
       <Footer />
     </>
