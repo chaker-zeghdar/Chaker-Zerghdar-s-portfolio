@@ -72,7 +72,7 @@ const Hero = () => {
               {/* LEFT : ABOUT IMAGE */}
               <figure className='w-full md:w-1/2 flex justify-center'>
                   <img 
-                      src="/public/images/hero.jpg" 
+                      src="/public/hero.jpg" 
                       alt="about me" 
                       className='w-64 h-64 md:w-80 md:h-80 lg:w-96 lg:h-96 object-cover rounded-lg floating shadow-purple'
                   />
