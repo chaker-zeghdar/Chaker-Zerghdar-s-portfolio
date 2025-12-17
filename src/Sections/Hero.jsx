@@ -48,7 +48,7 @@ const Hero = () => {
                         <h1>that deliver Results</h1>
                     </div>
                     <p className='text-white-50 md:text-xl relative z-10 pointer-events-none'>
-                        Hi,i'm Salah Serir a front end developer based in Algeria with a pasison for code
+                        Hi,i'm Chaker Zeghdar a front end developer based in Algeria with a pasison for code
                     </p>
                     <Button 
                     className= "md:w-80 md:h-16 w-60 h-12"
