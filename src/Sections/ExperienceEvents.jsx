@@ -4,31 +4,38 @@ const ExperienceEvents = () => {
   const experiences = [
     {
       id: 1,
-      title: "Web Development Hackathon",
-      description: "Participated in a 48-hour hackathon where I built a full-stack web application. Won the Best UI/UX award for creating an intuitive and visually stunning interface.",
-      image: "/images/logos/company-logo-1.png",
-      date: "2024"
+      title: "1st Place Winner Finovia Expo Hackathon",
+      description: "1st place winner at Finovia Expo Hackathon for an innovative and impactful solution.",
+      image: "https://res.cloudinary.com/dfxhtf6xh/image/upload/v1766090754/photo_2025-12-18_21-45-28_g442lh.jpg",
+      date: "2025"
     },
     {
       id: 2,
-      title: "React Workshop",
-      description: "Attended an advanced React workshop covering state management, performance optimization, and modern hooks patterns. Enhanced my skills in building scalable applications.",
+      title: "Trainer GDG Batna Ideathon",
+      description: "Trainer at GDG Batna Ideathon, guiding teams in idea development and pitching.",
       image: "/images/logos/company-logo-2.png",
-      date: "2024"
+      date: "2025"
     },
     {
       id: 3,
-      title: "Tech Conference 2024",
-      description: "Participated as a speaker and attendee in a major tech conference. Networked with industry leaders and learned about the latest trends in web development.",
+      title: "Participant AgroX Hackathon",
+      description: "Participated in AgroX Hackathon, contributing to idea development and solution building in a collaborative team environment.",
       image: "/images/logos/company-logo-3.png",
-      date: "2024"
+      date: "2025"
     },
     {
       id: 4,
-      title: "Design Systems Seminar",
-      description: "Completed an intensive seminar on building scalable design systems. Learned best practices for component documentation and design consistency across projects.",
-      image: "/images/logos/company-logo-4.png",
-      date: "2023"
+      title: "Participant BoostHack Hackathon (GDG Batna)",
+      description: "Participated in BoostHack Hackathon by GDG Batna, collaborating with teams to develop innovative solutions under time constraints.",
+      image: "https://res.cloudinary.com/dfxhtf6xh/image/upload/v1766090247/photo_2025-12-18_21-37-03_dp1iip.jpg",
+      date: "2024"
+    },
+    {
+      id: 5,
+      title: "Web Development Course",
+      description: "Delivered a web development course covering fundamentals and hands-on practice.",
+      image: "https://res.cloudinary.com/dfxhtf6xh/image/upload/v1766090246/photo_2025-12-18_21-37-10_fspg4s.jpg",
+      date: "2024"
     }
   ]
 
@@ -47,7 +54,7 @@ const ExperienceEvents = () => {
 
         {/* CARDS GRID */}
         <div className='flex justify-center'>
-          <div className='w-full h-250 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8 max-w-6xl'>
+          <div className='w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8 max-w-6xl'>
             {experiences.map((event) => (
             <div
               key={event.id}

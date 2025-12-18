@@ -39,6 +39,9 @@ const TechStack = () => {
     <div id="skills" className="flex-center section-padding">
       <div className="w-full h-full md:px-10 px-5">
         <h1 className="font-bold text-center text-6xl">Tech Stack</h1>
+        <p className='text-center items-center text-white-50 text-lg md:text-xl max-w-2xl mx-auto mt-6'>
+            Tools & technologies I use to build modern web experiences
+          </p>
         <div className="tech-grid">
           {/* Loop through the techStackIcons array and create a component for each item. 
               The key is set to the name of the tech stack icon, and the classnames are set to 

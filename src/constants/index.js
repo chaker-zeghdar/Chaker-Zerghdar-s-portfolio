@@ -13,7 +13,7 @@ const navLinks = [
   },
   {
     name: "work",
-    link: "#work",
+    link: "#projects",
   },
 ];
 

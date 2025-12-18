@@ -4,51 +4,35 @@ const MyProjects = () => {
   const projects = [
     {
       id: 1,
-      title: "E-Commerce Platform",
-      description: "A full-featured e-commerce platform with product listings, shopping cart, and payment integration.",
-      image: "/images/logos/company-logo-1.png",
-      techStack: ["React", "Node.js", "MongoDB", "Stripe"],
-      link: "#"
+      title: "Thi9ati",
+      description: "A digital platform built to enhance trust and transparency between users.",
+      image: "https://res.cloudinary.com/dfxhtf6xh/image/upload/v1766090423/Screenshot_2025-12-18_213009_ecpi0u.png",
+      techStack: ["React", "Node.js", "MongoDB", "Stripe", "API Integration"],
+      link: "https://thi9ati.vercel.app/"
     },
     {
       id: 2,
-      title: "Task Management App",
-      description: "Collaborative task management application with real-time updates and team collaboration features.",
-      image: "/images/logos/company-logo-2.png",
-      techStack: ["React", "Firebase", "Tailwind CSS"],
-      link: "#"
+      title: "HZ Phone",
+      description: "A modern web platform showcasing smartphones with a clean UI and smooth user experience.",
+      image: "https://res.cloudinary.com/dfxhtf6xh/image/upload/v1766090423/Screenshot_2025-12-18_213043_nmyn00.png",
+      techStack: ["React", "supabase", "Tailwind CSS"],
+      link: "https://hz-phone-store-yvxa.vercel.app/"
     },
     {
       id: 3,
-      title: "Social Media Dashboard",
-      description: "Analytics dashboard for tracking social media metrics across multiple platforms.",
-      image: "/images/logos/company-logo-3.png",
-      techStack: ["React", "Chart.js", "API Integration"],
-      link: "#"
+      title: "GDG Batna Landing Page",
+      description: "Responsive landing page for GDG Batna, showcasing events and community activities.",
+      image: "https://res.cloudinary.com/dfxhtf6xh/image/upload/v1766090422/Screenshot_2025-12-18_213349_y5syji.png",
+      techStack: ["next", "Chart.js", "API Integration"],
+      link: "https://gdg-batna.vercel.app/"
     },
     {
       id: 4,
-      title: "Portfolio Website",
-      description: "Modern, responsive portfolio website showcasing projects and skills with smooth animations.",
-      image: "/images/logos/company-logo-4.png",
-      techStack: ["React", "Tailwind CSS", "GSAP"],
-      link: "#"
-    },
-    {
-      id: 5,
-      title: "Weather App",
-      description: "Real-time weather application with location-based forecasts and interactive weather maps.",
-      image: "/images/logos/company-logo-1.png",
-      techStack: ["React", "Weather API", "Geolocation"],
-      link: "#"
-    },
-    {
-      id: 6,
-      title: "Learning Platform",
-      description: "Online learning platform with course management, video streaming, and progress tracking.",
-      image: "/images/logos/company-logo-2.png",
-      techStack: ["React", "Node.js", "PostgreSQL"],
-      link: "#"
+      title: "Zer3aX",
+      description: "A hybrid platform combining web and mobile features, designed to streamline user interactions and enhance productivity.",
+      image: "https://res.cloudinary.com/dfxhtf6xh/image/upload/v1766090422/Screenshot_2025-12-18_213212_jzdkbk.png",
+      techStack: ["React", "Tailwind CSS", "GSAP","AI models"],
+      link: "https://zer3a-x-landing-page.vercel.app/"
     }
   ]
 
@@ -112,10 +96,10 @@ const MyProjects = () => {
                   </div>
 
                   {/* VIEW BUTTON */}
-                  <button className='relative z-10 mt-4 w-full py-2 px-4 rounded-lg bg-gradient-to-r from-purple-500/20 to-purple-500/10 border border-purple-500/30 text-purple-300 font-semibold hover:bg-gradient-to-r hover:from-purple-500/40 hover:to-purple-500/20 hover:border-purple-500/60 hover:text-purple-200 transition-all duration-300 flex items-center justify-center gap-2'>
+                  <a href={project.link} target="_blank" rel="noopener noreferrer" className='relative z-10 mt-4 w-full py-2 px-4 rounded-lg bg-gradient-to-r from-purple-500/20 to-purple-500/10 border border-purple-500/30 text-purple-300 font-semibold hover:bg-gradient-to-r hover:from-purple-500/40 hover:to-purple-500/20 hover:border-purple-500/60 hover:text-purple-200 transition-all duration-300 flex items-center justify-center gap-2'>
                     View Project
                     <span className='group-hover:translate-x-1 transition-transform duration-300'>→</span>
-                  </button>
+                  </a>
                 </div>
 
                 {/* BORDER GLOW ON HOVER */}
