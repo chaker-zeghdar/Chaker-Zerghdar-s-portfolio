@@ -72,7 +72,7 @@ const Hero = () => {
               {/* LEFT : ABOUT IMAGE */}
               <figure className='w-full md:w-1/2 flex justify-center'>
                   <img 
-                      src="/public/hero.jpg" 
+                      src="https://res.cloudinary.com/dfxhtf6xh/image/upload/v1766089310/photo_2025-12-17_20-39-51_s1lh3c.jpg" 
                       alt="about me" 
                       className='w-64 h-64 md:w-80 md:h-80 lg:w-96 lg:h-96 object-cover rounded-lg floating shadow-purple'
                   />
