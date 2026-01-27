@@ -7,6 +7,8 @@ const Button = ({text,className,id}) => {
         let target;
         if(id === 'button') {
             target = document.getElementById('projects');
+        } else if(id === 'about-button') {
+            target = document.getElementById('experience');
         } else {
             target = document.getElementById('counter');
         }
