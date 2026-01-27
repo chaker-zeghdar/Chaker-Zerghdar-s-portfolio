@@ -145,44 +145,6 @@ const techStackIcons = [
   },
 ];
 
-const expCards = [
-  {
-    review: "Salah brought creativity and technical expertise to the team, significantly improving our frontend performance. His work has been invaluable in delivering faster experiences.",
-    imgPath: "/images/originova_logo.png",
-    logoPath: "/images/originova_logo.png",
-    title: "Junior Software Developer",
-    date: "Jan 2025 - May 2025",
-    responsibilities: [
-      "Developed and maintained responsive web applications using Vue.js and Nuxt.js, focusing on performance, UI/UX quality, and reusability of components.",
-      "Built and deployed cross-platform mobile applications using Ionic Framework with Capacitor, targeting both Android and iOS platforms.",
-      "Collaborated closely with UI/UX designers and backend developers to ensure seamless integration of APIs and consistent user experience.",
-    ],
-  },
-  {
-    review: "Salah's contributions to Docker's web applications have been outstanding. He approaches challenges with a problem-solving mindset.",
-    imgPath: "/images/anaelink_logo.png",
-    logoPath: "/images/anaelink_logo.png",
-    title: "Programmer (Auto-Entrepreneur)",
-    date: "December 2024 - Present",
-    responsibilities: [
-      "Delivered custom web and mobile applications for local clients using Vue.js, Nuxt.js, and Ionic with Capacitor, ensuring user-friendly interfaces and performance optimization.",
-      "Built tailored desktop POS systems using Python with PyQt5, focusing on intuitive UI, offline functionality, and integration with SQLite/PostgreSQL databases.",
-      "Managed all stages of project execution independently, including client communication, technical documentation, and deployment.",
-    ],
-  },
-  {
-    review: "Salah's work on Appwrite's mobile app brought a high level of quality and efficiency. He delivered solutions that enhanced our mobile experience & meet our product goals.",
-    imgPath: "/images/noble_logo.png",
-    logoPath: "/images/noble_logo.png",
-    title: "Freelance Software Developer",
-    date: "June 2025 - Sep 2025",
-    responsibilities: [
-      "Developed and maintained responsive web applications using Vue.js and Nuxt.js, focusing on performance, UI/UX quality, and reusability of components.",
-      "Built and deployed cross-platform mobile applications using Ionic Framework with Capacitor, targeting both Android and iOS platforms.",
-      "Collaborated closely with UI/UX designers and backend developers to ensure seamless integration of APIs and consistent user experience.",
-    ],
-  },
-];
 
 const expLogos = [
   {
@@ -199,67 +161,33 @@ const expLogos = [
   },
 ];
 
-const testimonials = [
-  {
-    name: "Esther Howard",
-    mentions: "@estherhoward",
-    review:
-      "I can’t say enough good things about Salah. He was able to take our complex project requirements and turn them into a seamless, functional website. His problem-solving abilities are outstanding.",
-    imgPath: "/images/client1.png",
-  },
-  {
-    name: "Wade Warren",
-    mentions: "@wadewarren",
-    review:
-      "Working with Salah was a fantastic experience. He transformed our outdated website into a modern, user-friendly platform. His attention to detail and commitment to quality are unmatched. Highly recommend him for any web dev projects.",
-    imgPath: "/images/client3.png",
-  },
-  {
-    name: "Guy Hawkins",
-    mentions: "@guyhawkins",
-    review:
-      "Collaborating with Salah was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Salah's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Salah is the ideal partner.",
-    imgPath: "/images/client2.png",
-  },
-  {
-    name: "Marvin McKinney",
-    mentions: "@marvinmckinney",
-    review:
-      "Salah was a pleasure to work with. He turned our outdated website into a fresh, intuitive platform that’s both modern and easy to navigate. Fantastic work overall.",
-    imgPath: "/images/client5.png",
-  },
-  {
-    name: "Floyd Miles",
-    mentions: "@floydmiles",
-    review:
-      "Salah’s expertise in web development is truly impressive. He delivered a robust and scalable solution for our e-commerce site, and our online sales have significantly increased since the launch. He’s a true professional!",
-    imgPath: "/images/client4.png",
-  },
-  {
-    name: "Albert Flores",
-    mentions: "@albertflores",
-    review:
-      "Salah was a pleasure to work with. He understood our requirements perfectly and delivered a website that exceeded our expectations. His skills in both frontend and backend dev are top-notch.",
-    imgPath: "/images/client6.png",
-  },
-];
+
 
 const socialImgs = [
   {
+    name: "whatsapp",
+    imgPath: "/images/wtsp.png",
+    link: "https://wa.me/213775919347?text=Hello%21%20I%27m%20Chaker%2C%20a%20professional%20web%20developer.%20Feel%20free%20to%20tell%20me%20about%20your%20project."
+  },
+  {
     name: "insta",
-    imgPath: "/images/insta.png",
-  },
-  {
-    name: "fb",
-    imgPath: "/images/fb.png",
-  },
-  {
-    name: "x",
-    imgPath: "/images/x.png",
+    imgPath: "/images/ig.webp",
+    link: "https://www.instagram.com/chaker.zdr/"
   },
   {
     name: "linkedin",
-    imgPath: "/images/linkedin.png",
+    imgPath: "/images/in.png",
+    link: "https://www.linkedin.com/in/chaker-zeghdar-89723b344/"
+  },
+  {
+    name: "github",
+    imgPath: "/images/github.png",
+    link: "https://github.com/chaker-zeghdar"
+  },
+  {
+    name: "discord",
+    imgPath: "/images/discord.png",
+    link: "https://discordapp.com/users/1257749280685555943"
   },
 ];
 
@@ -268,9 +196,7 @@ export {
   abilities,
   logoIconsList,
   counterItems,
-  expCards,
   expLogos,
-  testimonials,
   socialImgs,
   techStackIcons,
   techStackImgs,

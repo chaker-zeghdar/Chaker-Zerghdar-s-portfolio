@@ -7,7 +7,7 @@ const MyProjects = () => {
       title: "Thi9ati",
       description: "A digital platform built to enhance trust and transparency between users.",
       image: "https://res.cloudinary.com/dfxhtf6xh/image/upload/v1766090423/Screenshot_2025-12-18_213009_ecpi0u.png",
-      techStack: ["React", "Node.js", "MongoDB", "Stripe", "API Integration"],
+      techStack: ["React", "Node.js", "MongoDB", "AI Models"],
       link: "https://thi9ati.vercel.app/"
     },
     {
@@ -23,7 +23,7 @@ const MyProjects = () => {
       title: "GDG Batna Landing Page",
       description: "Responsive landing page for GDG Batna, showcasing events and community activities.",
       image: "https://res.cloudinary.com/dfxhtf6xh/image/upload/v1766090422/Screenshot_2025-12-18_213349_y5syji.png",
-      techStack: ["next", "Chart.js", "API Integration"],
+      techStack: ["next", "Three.js", "Tailwind CSS"],
       link: "https://gdg-batna.vercel.app/"
     },
     {
@@ -31,8 +31,16 @@ const MyProjects = () => {
       title: "Zer3aX",
       description: "A hybrid platform combining web and mobile features, designed to streamline user interactions and enhance productivity.",
       image: "https://res.cloudinary.com/dfxhtf6xh/image/upload/v1766090422/Screenshot_2025-12-18_213212_jzdkbk.png",
-      techStack: ["React", "Tailwind CSS", "GSAP","AI models"],
+      techStack: ["React", "Tailwind CSS", "Express","AI models"],
       link: "https://zer3a-x-landing-page.vercel.app/"
+    },
+    {
+      id: 5,
+      title: "KoraLink",
+      description: "Football stadium booking platform.",
+      image: "https://res.cloudinary.com/dfxhtf6xh/image/upload/v1769462413/Screenshot_2026-01-26_221436_haxemr.png",
+      techStack: ["React", "Typescript", "Tailwind CSS", "Express"],
+      link: "https://koralink-psi.vercel.app/"
     }
   ]
 

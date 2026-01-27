@@ -20,7 +20,7 @@ const ExperienceEvents = () => {
       id: 3,
       title: "Participant AgroX Hackathon",
       description: "Participated in AgroX Hackathon, contributing to idea development and solution building in a collaborative team environment.",
-      image: "/images/logos/company-logo-3.png",
+      image: "https://res.cloudinary.com/dfxhtf6xh/image/upload/v1769374715/IMG_1417_ywfvz0.jpg",
       date: "2025"
     },
     {
