@@ -29,14 +29,14 @@ const NavBar = () => {
                     ))}
                 </ul>
             </nav>
-            <a href="#contact" className='contact-btn group'>
+            <a href="#footer" className='contact-btn group'>
                 <div className='inner font-semibold'>
                     <span>Contact me</span>
                 </div>
             </a>
         </div>
     </header>
-  )
+)
 }
 
 export default NavBar
