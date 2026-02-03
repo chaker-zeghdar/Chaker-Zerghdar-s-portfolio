@@ -13,7 +13,7 @@ const ExperienceEvents = () => {
       id: 2,
       title: "Trainer GDG Batna Ideathon",
       description: "Trainer at GDG Batna Ideathon, guiding teams in idea development and pitching.",
-      image: "/images/logos/company-logo-2.png",
+      image: "https://res.cloudinary.com/dfxhtf6xh/image/upload/v1770157113/Screenshot_2026-02-03_231640_w1seqv.png",
       date: "2025"
     },
     {
