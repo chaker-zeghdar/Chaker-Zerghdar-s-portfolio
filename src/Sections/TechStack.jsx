@@ -66,6 +66,7 @@ const TechStack = () => {
                 <div className="padding-x w-full -mt-13">
                   {/* The p tag contains the name of the tech stack icon. */}
                   <p>{techStackIcon.name}</p>
+
                 </div>
               </div>
             </div>

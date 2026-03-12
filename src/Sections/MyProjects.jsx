@@ -44,6 +44,9 @@ const MyProjects = () => {
     }
   ]
 
+  
+  
+
   return (
     <section id='projects' className='relative overflow-hidden py-20 px-5 md:px-20'>
       <div className='flex flex-col gap-16'>
@@ -66,7 +69,7 @@ const MyProjects = () => {
                 className='group relative overflow-hidden rounded-lg bg-black-200 border border-purple-500/20 hover:border-purple-500/50 transition-all duration-300 hover:shadow-purple cursor-pointer flex flex-col h-full'
               >
                 {/* IMAGE */}
-                <div className='h-48 w-full overflow-hidden flex-shrink-0'>
+                <div className='h-48 w-full overflow-hidden shrink-0'>
                   <img
                     src={project.image}
                     alt={project.title}
@@ -78,7 +81,7 @@ const MyProjects = () => {
                 <div className='absolute inset-0 bg-gradient-to-br from-purple-500/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none' />
 
                 {/* CONTENT */}
-                <div className='flex flex-col justify-between p-5 md:p-6 flex-grow'>
+                <div className='flex flex-col justify-between p-5 md:p-6 grow'>
                   <div className='relative z-10 flex flex-col gap-3'>
                     {/* TITLE */}
                     <h3 className='text-lg md:text-xl font-bold text-white group-hover:text-purple-400 transition-colors duration-300 line-clamp-2'>
