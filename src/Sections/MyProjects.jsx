@@ -4,6 +4,14 @@ const MyProjects = () => {
   const projects = [
     {
       id: 1,
+      title: "UPRISING PROJECT",
+      description: "A modern e-commerce website.",
+      image: "https://res.cloudinary.com/dfxhtf6xh/image/upload/v1773786173/Screenshot_2026-03-17_231812_kkslkf.png",
+      techStack: ["React", "Tailwind CSS", "TypeScript","supabase"],
+      link: "https://uprisingproject.vercel.app/"
+    },
+    {
+      id: 2,
       title: "Thi9ati",
       description: "A digital platform built to enhance trust and transparency between users.",
       image: "https://res.cloudinary.com/dfxhtf6xh/image/upload/v1766090423/Screenshot_2025-12-18_213009_ecpi0u.png",
@@ -11,7 +19,7 @@ const MyProjects = () => {
       link: "https://thi9ati.vercel.app/"
     },
     {
-      id: 2,
+      id: 3,
       title: "HZ Phone",
       description: "A modern web platform showcasing smartphones with a clean UI and smooth user experience.",
       image: "https://res.cloudinary.com/dfxhtf6xh/image/upload/v1766090423/Screenshot_2025-12-18_213043_nmyn00.png",
@@ -19,20 +27,12 @@ const MyProjects = () => {
       link: "https://hz-phone-store-yvxa.vercel.app/"
     },
     {
-      id: 3,
+      id: 4,
       title: "GDG Batna Landing Page",
       description: "Responsive landing page for GDG Batna, showcasing events and community activities.",
       image: "https://res.cloudinary.com/dfxhtf6xh/image/upload/v1766090422/Screenshot_2025-12-18_213349_y5syji.png",
       techStack: ["next", "Three.js", "Tailwind CSS"],
       link: "https://gdg-batna.vercel.app/"
-    },
-    {
-      id: 4,
-      title: "Zer3aX",
-      description: "A hybrid platform combining web and mobile features, designed to streamline user interactions and enhance productivity.",
-      image: "https://res.cloudinary.com/dfxhtf6xh/image/upload/v1766090422/Screenshot_2025-12-18_213212_jzdkbk.png",
-      techStack: ["React", "Tailwind CSS", "Express","AI models"],
-      link: "https://zer3a-x-landing-page.vercel.app/"
     },
     {
       id: 5,
