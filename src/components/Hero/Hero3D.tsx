@@ -3,13 +3,15 @@ import { Canvas, useFrame } from "@react-three/fiber";
 import { Float, PerspectiveCamera, useGLTF } from "@react-three/drei";
 import * as THREE from "three";
 
+const glbUrl = "https://y0v5wcwty0g8pigb.public.blob.vercel-storage.com/setup.glb";
+
 function Model() {
   const meshRef = useRef<THREE.Group>(null);
-  const { scene } = useGLTF("/setup.glb");
+  const { scene } = useGLTF(glbUrl);
 
   useFrame((_state, delta) => {
     if (meshRef.current) {
-      meshRef.current.rotation.y += delta * 0.4; // Smooth, slow circular rotation
+      meshRef.current.rotation.y += delta * 0.4;
     }
   });
 
@@ -22,8 +24,6 @@ function Model() {
     />
   );
 }
-
-useGLTF.preload("/setup.glb");
 
 function Scene() {
   return (
