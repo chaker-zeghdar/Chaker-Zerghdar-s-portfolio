@@ -10,10 +10,14 @@ export default defineConfig(({mode}) => {
     define: {
       'process.env.GEMINI_API_KEY': JSON.stringify(env.GEMINI_API_KEY),
     },
+    assetsInclude: ['**/*.glb'],
     resolve: {
       alias: {
         '@': path.resolve(__dirname, '.'),
       },
+    },
+    build: {
+      assetsInlineLimit: 0, // Ensure large GLB files are not inlined as base64
     },
     server: {
       // HMR is disabled in AI Studio via DISABLE_HMR env var.
