@@ -67,7 +67,7 @@ function HeroGeometric({
                             initial="hidden"
                             animate="visible"
                         >
-                            <h1 className="text-4xl sm:text-6xl md:text-7xl lg:text-8xl font-bold mb-6 tracking-tight">
+                            <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-bold mb-6 tracking-tight">
                                 <span className="text-white">
                                     Crafting
                                 </span>
@@ -98,7 +98,7 @@ function HeroGeometric({
                             initial="hidden"
                             animate="visible"
                         >
-                            <p className="text-base sm:text-lg md:text-xl text-white/50 mb-8 leading-relaxed font-light tracking-wide max-w-xl">
+                            <p className="text-lg sm:text-lg md:text-xl text-white/50 mb-8 leading-relaxed font-light tracking-wide max-w-xl">
                                 Crafting exceptional digital experiences through
                                 innovative design and cutting-edge technology.
                             </p>
