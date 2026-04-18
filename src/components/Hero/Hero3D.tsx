@@ -3,11 +3,9 @@ import { Canvas, useFrame } from "@react-three/fiber";
 import { Float, PerspectiveCamera, useGLTF } from "@react-three/drei";
 import * as THREE from "three";
 
-const glbUrl = "https://y0v5wcwty0g8pigb.public.blob.vercel-storage.com/setup.glb";
-
 function Model() {
   const meshRef = useRef<THREE.Group>(null);
-  const { scene } = useGLTF(glbUrl);
+  const { scene } = useGLTF("/setup.glb");
 
   useFrame((_state, delta) => {
     if (meshRef.current) {
