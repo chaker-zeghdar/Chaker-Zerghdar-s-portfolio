@@ -5,7 +5,7 @@ import * as THREE from "three";
 
 function Model() {
   const meshRef = useRef<THREE.Group>(null);
-  const { scene } = useGLTF("/setup.glb");
+  const { scene } = useGLTF("/drone.glb");
 
   useFrame((_state, delta) => {
     if (meshRef.current) {
@@ -17,8 +17,8 @@ function Model() {
     <primitive
       ref={meshRef}
       object={scene}
-      scale={2}
-      position={[0, -0.5, 0]}
+      scale={1}
+      position={[0, 0, 0]}
     />
   );
 }
@@ -42,7 +42,7 @@ function Scene() {
 
 export function Hero3D() {
   return (
-    <div className="mt-4 md:mt-20 h-[250px] md:h-[500px] w-full lg:max-w-[600px] pointer-events-none">
+    <div className="mt-4 md:mt-10 h-[250px] md:h-[500px] w-full lg:max-w-[600px] pointer-events-none">
       <Canvas>
         <Scene />
       </Canvas>

@@ -7,3 +7,5 @@ coverage/
 .env*
 !.env.example
 public/setup.glb
+.vercel
+.env*.local
