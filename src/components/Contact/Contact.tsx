@@ -59,7 +59,7 @@ export function Contact() {
           <a
             href="mailto:zeghdarchaker@gmail.com"
             onClick={handleCopyEmail}
-            className="relative z-50 inline-flex items-center justify-center gap-3 px-10 py-5 bg-white text-black rounded-full font-bold text-base md:text-lg hover:bg-white/90 hover:scale-105 active:scale-95 transition-all duration-300 shadow-[0_0_20px_rgba(255,255,255,0.1)] hover:shadow-[0_0_30px_rgba(255,255,255,0.3)] min-w-[300px] cursor-pointer"
+            className="relative z-30 inline-flex items-center justify-center gap-3 px-10 py-5 bg-white text-black rounded-full font-bold text-base md:text-lg hover:bg-white/90 hover:scale-105 active:scale-95 transition-all duration-300 shadow-[0_0_20px_rgba(255,255,255,0.1)] hover:shadow-[0_0_30px_rgba(255,255,255,0.3)] min-w-[300px] cursor-pointer hide-on-nav"
           >
             {copied ? (
               <>

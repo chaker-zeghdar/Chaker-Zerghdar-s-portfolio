@@ -36,6 +36,16 @@ const Navbar1 = () => {
     return () => window.removeEventListener("scroll", handleScroll)
   }, [])
 
+  useEffect(() => {
+    if (isOpen) {
+      document.body.classList.add("nav-open")
+      document.body.style.overflow = "hidden"
+    } else {
+      document.body.classList.remove("nav-open")
+      document.body.style.overflow = "unset"
+    }
+  }, [isOpen])
+
   const handleNavClick = (item: NavItem) => {
     if (item.to) {
       if (location.pathname === item.to) {
@@ -66,7 +76,7 @@ const Navbar1 = () => {
   }
 
   return (
-    <div className="fixed top-0 left-0 right-0 z-50 flex justify-center w-full py-4 px-4 pointer-events-none">
+    <div className="fixed top-0 left-0 right-0 z-[100] flex justify-center w-full py-4 px-4 pointer-events-none">
       <motion.div 
         initial={{ y: -20, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
