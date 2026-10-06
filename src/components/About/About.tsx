@@ -152,8 +152,8 @@ export function About() {
           >
             <div className="relative group">
               <motion.img
-                src="https://res.cloudinary.com/dfxhtf6xh/image/upload/v1776091308/photo_2026-04-13_15-30-31_apg2hg.jpg"
-                alt="Chaker Zerghdar"
+                src="https://res.cloudinary.com/dfxhtf6xh/image/upload/v1791312743/photo_2026-10-06_19-49-43_ftwmtb.jpg"
+                alt="Chaker Zeghdar"
                 className="relative w-72 h-72 md:w-96 md:h-96 object-cover rounded-2xl border border-white/10 shadow-2xl"
                 animate={{ y: [0, -8, 0] }}
                 transition={{ duration: 6, repeat: Infinity, ease: "easeInOut" }}

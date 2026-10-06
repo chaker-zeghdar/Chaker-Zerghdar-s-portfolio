@@ -18,7 +18,7 @@ export function AboutMePage() {
               A bit about me
             </p>
             <h1 className="text-4xl md:text-5xl font-bold tracking-tight text-white">
-              I'm Chaker Zerghdar.
+              I'm Chaker Zeghdar.
             </h1>
             <div className="space-y-4 text-white/40 leading-relaxed text-lg font-light">
               <p>
@@ -50,8 +50,8 @@ export function AboutMePage() {
             >
               <div className="absolute -inset-1 bg-gradient-to-r from-white/10 to-white/5 rounded-2xl blur opacity-25 group-hover:opacity-40 transition duration-1000 group-hover:duration-200"></div>
               <img
-                src="https://res.cloudinary.com/dfxhtf6xh/image/upload/v1776091308/photo_2026-04-13_15-30-31_apg2hg.jpg"
-                alt="Chaker Zerghdar"
+                src="https://res.cloudinary.com/dfxhtf6xh/image/upload/v1791312743/photo_2026-10-06_19-49-43_ftwmtb.jpg"
+                alt="Chaker Zeghdar"
                 className="relative w-full max-w-sm aspect-[4/5] object-cover rounded-2xl border border-white/10 shadow-2xl"
               />
             </motion.div>
